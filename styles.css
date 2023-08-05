@@ -1,0 +1,15 @@
+#digits {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 400px;
+    height: 400px;
+}
+
+.digit,
+.operator,
+#clear {
+    border: 1px red solid;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
